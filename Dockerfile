@@ -18,7 +18,7 @@ RUN curl -SLO "http://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x
 	&& tar -xzf "node-v$NODE_VERSION-linux-x64.tar.gz" -C /usr/local --strip-components=1 \
 	&& rm "node-v$NODE_VERSION-linux-x64.tar.gz" SHASUMS256.txt.asc
 
-RUN npm install pm2@latest -g
+RUN npm install pm2 -g
 
 # use changes to package.json to force Docker not to use the cache
 # when we change our application's nodejs dependencies:
