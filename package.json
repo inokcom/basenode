@@ -1,0 +1,21 @@
+{
+  "name": "Inok app",
+  "version": "0.2.0",
+  "dependencies": {
+    "lodash-node": "*",
+    "express": "~3.4.x",
+    "async": "~0.6.x",
+    "mongoskin": "~1.4.x",
+    "express-jwt": "~0.2.x",
+    "socketio-jwt": "~2.x.x",
+    "socket.io": "~0.9.x",
+    "jsonwebtoken": "~0.1.x",
+    "pm2": "*"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "~0.10.x",
+    "npm": "~1.x.x"
+  }
+}
