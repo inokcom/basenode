@@ -25,7 +25,7 @@ RUN npm install pm2 -g
 ADD package.json /tmp/package.json
 RUN cd /tmp && npm install \
     && mkdir -p /opt/node && cp -a /tmp/node_modules /opt/node/  \
-    && rm /tmp/* /var/tmp/* \
+    && rm -r /tmp/* /var/tmp/* \
     && mkdir -p /opt/node/app
 
 VOLUME ["/opt/node/app"]
