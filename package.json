@@ -1,5 +1,5 @@
 {
-  "name": "Inok app",
+  "name": "InokApp",
   "version": "0.2.0",
   "dependencies": {
     "lodash-node": "*",
