@@ -32,4 +32,4 @@ VOLUME ["/opt/node/app"]
 WORKDIR /opt/node/
 
 EXPOSE  3000
-CMD [ "pm2 start app/processes.json" ]
+CMD [ "pm2  --no-daemon start /opt/node/app/processes.json" ]
