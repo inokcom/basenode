@@ -1,6 +1,6 @@
 {
   "name": "InokApp",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "dependencies": {
     "lodash-node": "*",
     "express": "~3.4.x",
@@ -14,7 +14,7 @@
   "devDependencies": {
   },
   "engines": {
-    "node": "~0.10.x",
+    "node": "~0.12.x",
     "npm": "~1.x.x"
   }
 }
