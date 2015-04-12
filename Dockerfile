@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 RUN gpg --keyserver pgp.mit.edu --recv-keys 7937DFD2AB06298B2293C3187D33FF9D0246406D
 
 # https://registry.hub.docker.com/_/node/
-ENV NODE_VERSION 0.12.2
+ENV NODE_VERSION 0.10.38
 RUN curl -SLO "http://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.gz" \
 	&& curl -SLO "http://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc" \
 	&& gpg --verify SHASUMS256.txt.asc \
