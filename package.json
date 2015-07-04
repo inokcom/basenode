@@ -4,6 +4,7 @@
   "dependencies": {
     "lodash-node": "*",
     "express": "~3.4.x",
+    "request": "*",
     "async": "~0.6.x",
     "mongoskin": "~1.4.x",
     "express-jwt": "~0.2.x",
